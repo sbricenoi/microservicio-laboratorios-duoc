@@ -30,7 +30,6 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/laboratorios")
-@CrossOrigin(origins = "*")
 public class LaboratorioController {
 
     @Autowired
